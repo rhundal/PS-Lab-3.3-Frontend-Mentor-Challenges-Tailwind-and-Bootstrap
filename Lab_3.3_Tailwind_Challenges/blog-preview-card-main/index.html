@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Blog preview card with Tailwind</title>
+
+</head>
+
+<body class="bg-[hsl(47,88%,63%)] grid place-content-center place-items-center min-h-dvh">
+  <main
+    class="flex justify-center items-center w-[60%] md:w-[350px] border border-black rounded-3xl shadow-[10px_10px_3px_rgba(0,0,0,0.95)]">
+    <section class="p-5 bg-white rounded-3xl grid-rows-3 place-content-center place-items-center">
+      <section class="mb-5">
+        <img src="./assets/images/illustration-article.svg" alt="article" class="rounded-3xl" />
+      </section>
+      <section class="mb-5"> <!-- middle section -->
+        <div class="text-sm font-bold bg-[hsl(47,88%,63%)] w-max pr-2 pb-2 pl-2 pt-2 font-[Arial, Helvetica,
+          sans-serif] rounded-sm mb-3">Learning </div>
+        <div class="">Published 21 Dec 2023 </div> <!-- dateStyle-->
+        <div id=" border border-black-600"> HTML & CSS foundations</div> <!-- headingSection-->
+        <div id="border border-black-600"> <!-- mini para-->
+          These languages are the backbone of every website, defining structure, content, and presentation.
+        </div>
+      </section>
+      <section class="border border-black-600"> <!-- bottom seciton -->
+        <div id="border border-black-600"> <!-- left column -->
+          <img src="./assets/images/image-avatar.webp" alt="profilepic" id="profilepicStyle" />
+        </div>
+        <div id="border border-black-600"> <!-- right column-->
+          Greg Hooper
+        </div>
+      </section>
+    </section>
+  </main>
+
+
+  <!-- <footer class="">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+    Coded by <a href="#"> Rajdeep Hundal</a>.
+  </footer> -->
+</body>
+
+</html>

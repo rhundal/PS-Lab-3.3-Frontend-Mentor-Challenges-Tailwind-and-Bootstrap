@@ -1,0 +1,166 @@
+body {
+
+    background-color: hsl(47, 88%, 63%);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    min-height: 100dvh;
+    margin: 0px;
+}
+
+.mainContainer {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px black solid;
+    border-radius: 1rem;
+    width: 95%;
+    max-width: 350px;
+    box-shadow: 10px 10px 3px rgba(0, 0, 0, 100%);
+
+
+}
+
+.outerContainer {
+    grid-template-columns: 2fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    border: 1px white solid;
+    border-radius: 1rem;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.img_style {
+
+    max-width: 100%;
+    border-radius: 0.7rem;
+}
+
+#pillHeading {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    background-color: hsl(47, 88%, 63%);
+    padding: 9px;
+    width: 20%;
+    border-radius: 0.3rem;
+    margin-bottom: 10px;
+}
+
+#dateStyle {
+
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    color: hsl(0, 0%, 7%);
+}
+
+#headingSection {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#miniPara {
+
+    font-size: 16px;
+    color: hsl(0, 0%, 42%);
+}
+
+.topSection {
+
+    margin-bottom: 10px;
+}
+
+.middleSection {
+
+    margin-bottom: 10px;
+}
+
+.bottomSection {
+
+    display: grid;
+    width: 160px;
+    grid-template-columns: 60px 100px;
+    margin-left: -10px;
+}
+
+#profilepicStyle {
+
+    width: 50%;
+}
+
+.footerSection {
+    font-size: 0.6875rem;
+    text-align: center;
+}
+
+.footerSection a {
+    color: hsl(228, 45%, 44%);
+}
+
+#leftColumn {
+    width: 80px;
+    margin-left: 10px;
+
+}
+
+#rightColumn {
+
+    margin-left: 15px;
+    width: 90px;
+    margin-top: 13px;
+    font-weight: bold;
+
+}
+
+@media (max-width: 768px) {
+
+    .mainContainer {
+
+        width: 75%;
+        height: auto;
+        margin: auto;
+
+    }
+
+    #pillHeading {
+        font-size: small;
+        width: 25%;
+
+
+    }
+
+    #miniPara {
+
+        font-size: 12px;
+    }
+
+    #profilepicStyle {
+
+        width: 40%;
+    }
+
+    #leftColumn {
+        width: 80px;
+        margin-left: 10px;
+
+    }
+
+    #rightColumn {
+
+        margin-left: -6px;
+        width: 90px;
+        margin-top: 8px;
+        font-weight: bold;
+
+    }
+
+    #headingSection {
+        font-size: 14px;
+    }
+}
